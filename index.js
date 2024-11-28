@@ -1,4 +1,5 @@
 // index.js
+require('dotenv').config();
 const express = require("express");
 const mysql = require("mysql2"); // Use mysql2 package
 const bodyParser = require("body-parser");
